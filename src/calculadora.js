@@ -1,7 +1,5 @@
-const variavelSemUso = 10;
-
 function somar(a, b) {
-  return a + b;
+  return a + b + 1;
 }
 
 function subtrair(a, b) {
