@@ -20,7 +20,7 @@ jobs:
           node-version: '18'
 
       - name: Instalar dependências
-        run: npm install
+        run: npm ci || npm install
 
       - name: Executar Linter
         run: npm run lint
